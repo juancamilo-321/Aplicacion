@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">"App Martes "</string>
+    <string name="buttonText">"Cambiar texto del textView "</string>
+    <string name="hello">"Hello World!"</string>
 </resources>
