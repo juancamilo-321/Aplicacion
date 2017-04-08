@@ -23,7 +23,7 @@ public class Activity2 extends AppCompatActivity implements View.OnClickListener
         container.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, @IdRes int checkedId) {
-                if (checkedId == R.id.radioButton) {
+                if (checkedId == R.id.radioButton1) {
                     Toast.makeText(getApplicationContext(), "Usted oprimio el Boton 1", Toast.LENGTH_SHORT).show();
                 } else if (checkedId == R.id.radioButton2){
                     Toast.makeText(getApplicationContext(), "Usted oprimio el Boton 2", Toast.LENGTH_SHORT).show();
